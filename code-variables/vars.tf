@@ -11,3 +11,12 @@ variable "AMIS" {
 		us-west-2 = "ami-b5ed9ccd"
 	}
 }
+variable "PATH_TO_PUBLIC_KEY" {
+	default = "mykey.pub"
+}
+variable "PATH_TO_PRIVATE_KEY" {
+	default = "mykey"
+}
+variable "INSTANCE_USERNAME" {
+	default = "ubuntu"
+}
