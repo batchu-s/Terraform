@@ -1,2 +1,7 @@
 **/.terraform
 */terraform.tfvars
+*/mykey*
+*/out*
+*/*tfstate*
+*/private_ips.txt
+
